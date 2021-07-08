@@ -1,7 +1,10 @@
-
 .container {
     width: 408px;
-    margin: 20px;
+    height: 335px;
+    margin: 40px auto;
+    box-shadow: 0 8px 12px gray;
+    padding: 20px;
+    background-color: ghostwhite;
 }
 
 .operations {
@@ -23,17 +26,18 @@
     font-weight: 600;
 }
 
-.inputs > div {
+.inputs div {
     line-height: 50px;
     text-align: center;
     width: 100px;
     height: 50px;
     float: left;
     border: 1px solid gainsboro;
+    border-radius: 4px;
 }
 
-.inputs > div:hover {
-    background-color:gainsboro;
+.inputs div:hover {
+    background-color:lightcyan;
     cursor: pointer;
 }
 
@@ -41,7 +45,7 @@
     width: 408px;
     height: 50px;
     line-height: 50px;
-    background-color:ghostwhite;
+    background-color:gainsboro;
     text-align: center;
     margin: auto;
     float: left;
@@ -49,6 +53,6 @@
 }
 
 .reset:hover {
-    background-color:gainsboro;
+    background-color:lightcyan;
     cursor: pointer;
 }
