@@ -3,8 +3,9 @@
     height: 335px;
     margin: 40px auto;
     box-shadow: 0 8px 12px gray;
-    padding: 20px;
+    padding: 24px;
     background-color: ghostwhite;
+    border-radius: 8px;
 }
 
 .operations {
